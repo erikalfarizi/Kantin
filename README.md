@@ -44,7 +44,9 @@
 <h4>- &nbsp; Metode run mengatur urutan operasi utama program, termasuk menampilkan menu, menerima pesanan, menghitung total harga, dan mencetak struk pembelian.<h4>
 
 <h1> Berikut adalah contoh codingannya <h1>
-  
+
+<h5>
+
 ```python
 menu = {
     'mie ayam': {'price': 12000},
@@ -92,5 +94,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+<h5>
+
 <h1> Berikut adalah link video cara membuatnya <h1>
 <h4> https://youtu.be/aQcLVkgOXPM?si=2FccI72HuJrm3kkW</h4>
