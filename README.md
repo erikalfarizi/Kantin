@@ -40,3 +40,51 @@
 
 Upload kode program ke repositori GitHub.
 <h4>- &nbsp;Pastikan untuk menyertakan README.md di repositori untuk memudahkan orang lain memahami dan menggunakan program tersebut.<h4>
+
+```python
+menu = {
+    'mie ayam': {'price': 12000},
+    'bakso': {'price': 15000},
+    'soto': {'price': 18000},
+    'es teh': {'price': 5000},
+    'kopi': {'price': 7000}
+}
+
+def show_menu():
+    print("Menu makanan/minuman:")
+    for item, details in menu.items():
+        print(f"{item.capitalize()}-Rp{details['price']}")
+
+def calculate_total(selected_items):
+    total = 0
+    for item in selected_items:
+        total += menu[item]['price']
+    return total
+
+def generate_receipt(selected_items, total_price):
+    print("\nStruk pembelian:")
+    for item in selected_items:
+        print(f"{item.capitalize()}: Rp{menu[item]['price']}")
+    print(f"\nTotal harga: Rp{total_price}")
+
+def main():
+    selected_items = []
+    show_menu()
+
+    while True:
+        choice = input("\nPilih makanan/minuman (atau ketik 'selesai' untuk selesai): ")
+
+        if choice.lower() == 'selesai':
+            break
+
+        if choice in menu:
+            selected_items.append(choice)
+        else:
+            print("menu tidak valid, silahkan pilih lagi.")
+
+    total_price = calculate_total(selected_items)
+    generate_receipt(selected_items, total_price)
+
+if __name__ == "__main__":
+    main()
+```
