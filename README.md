@@ -1,3 +1,13 @@
+# Project_UAS
+
+| NAMA   | ERIK ALFARIZI |
+| --- | --- |
+| NIM    | 312310622 |
+| KELAS  | TI.23.A6 |
+| DOSEN  | Agung Nugroho,S.Kom.,M.Kom |
+
+
+
 <h1> Berikut adalah penjelasan tentang cara membuat program kasir di kantin <h1>
   
 <h3> Membuat Class Kantin: <h3>
