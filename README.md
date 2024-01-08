@@ -45,7 +45,7 @@
 
 <h1> Berikut adalah contoh codingannya <h1>
 
-<h5>
+<h6>
 
 ```python
 menu = {
@@ -94,7 +94,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-<h5>
+<h6>
 
 <h1> Berikut adalah link video cara membuatnya <h1>
 <h4> https://youtu.be/aQcLVkgOXPM?si=2FccI72HuJrm3kkW</h4>
