@@ -41,6 +41,8 @@
 Upload kode program ke repositori GitHub.
 <h4>- &nbsp;Pastikan untuk menyertakan README.md di repositori untuk memudahkan orang lain memahami dan menggunakan program tersebut.<h4>
 
+<h1> Berikut adalah contoh codingannya <h1>
+  
 ```python
 menu = {
     'mie ayam': {'price': 12000},
@@ -88,3 +90,5 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+<h1> Berikut adalah link video cara membuatnya <h1>
+https://youtu.be/aQcLVkgOXPM?si=2FccI72HuJrm3kkW
