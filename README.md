@@ -33,14 +33,6 @@
 
 <h4>- &nbsp; Metode run mengatur urutan operasi utama program, termasuk menampilkan menu, menerima pesanan, menghitung total harga, dan mencetak struk pembelian.<h4>
 
-<h3> Panggilan Utama: <h3> 
-
-<h4>- &nbsp;Dalam blok __name__ == "__main__", objek Kantin dibuat dan metode run dipanggil untuk menjalankan program kasir kantin.<h4>
-
-
-Upload kode program ke repositori GitHub.
-<h4>- &nbsp;Pastikan untuk menyertakan README.md di repositori untuk memudahkan orang lain memahami dan menggunakan program tersebut.<h4>
-
 <h1> Berikut adalah contoh codingannya <h1>
   
 ```python
